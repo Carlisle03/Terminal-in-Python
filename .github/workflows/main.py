@@ -28,7 +28,7 @@ def mkdir():
 
 
 def main():
-  print("TERMINAL CLI" + os.name + " - " os.getcwd())
+  print("TERMINAL CLI" + os.name + " - "  + os.getcwd())
   while True:
     command = input(f"[{__name__}/~]$ ")
     if command == "ls":
